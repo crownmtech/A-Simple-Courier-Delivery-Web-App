@@ -2,7 +2,7 @@
 
 A full-stack Courier Delivery Web Application built using **HTML, CSS, PHP, and MySQL**.
 
-## 📌 Features
+## Features
 - User Registration & Login
 - Parcel Booking System
 - Shipment Tracking
@@ -10,21 +10,18 @@ A full-stack Courier Delivery Web Application built using **HTML, CSS, PHP, and 
 - Delivery Status Updates
 - Database Integration with MySQL
 
-## 🛠 Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - PHP
 - MySQL
 - XAMPP (Local Server)
 
-## 🚀 Installation Guide
+## Installation Guide
 1. Clone the repository
 2. Import the database file into phpMyAdmin
 3. Update database credentials in `config.php`
 4. Run the project on localhost using XAMPP
 
-## 📷 Screenshots
-(Add screenshots here)
-
-## 📜 License
+## License
 This project is licensed under the MIT License.
