@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Handle API requests
+RewriteRule ^api/(.*)$ api.php?endpoint=$1 [QSA,L]
+
+# Handle frontend requests (optional)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html [L]
